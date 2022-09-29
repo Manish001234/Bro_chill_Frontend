@@ -80,13 +80,7 @@ const Home = () => {
           : [...Array(8)].map((data) => {
               return (
                 <div className="box">
-                  <div>
-                    <Skeleton
-                        circle
-                    />
-                  </div>
-                  <div><Skeleton /></div>
-                  <div><Skeleton /></div>
+            
                 </div>
               );
             })}
